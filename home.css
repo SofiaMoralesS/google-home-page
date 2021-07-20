@@ -1,11 +1,129 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color:#222;
+}
 
-
+/* navegador desde aqui */
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 6px;
+    align-items: center;
+}
 
 .img-prof {
+
     width: 32px;
     height: 32px;
-    padding:10px;
+    padding:4px;
     border-radius: 50%;
     
 }
+.menu-log{
+    padding: 10px;
+}
+.enl-image{
+    padding: 10px;
+   
+}
+
+.a-enl{
+    text-decoration: none;
+    color: #222;
+}
+.enl-gmail{
+    padding:10px;
+    
+}
+/* navegador hasta aqui */
+
+/*desde aqui esta el logo, buscador, botones, opciones de idioma*/
+
+ .main-l{
+     align-items: center;
+     display:row;
+     justify-content: center;
+    
+ }  
+
+.Logo-google{
+    width:272px;
+    height:92px;
+}
+.div-logo-google {
+    width: 1430px;
+    height: 196px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+section{
+    width: 1390px;
+    height: 386px;
+
+}
+
+.lupa{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+.microphone{
+    width:22px ;
+    height: 20px;
+}
+form{
+    width: 582px;
+    height: 44px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10% / 40%; 
+    justify-content: space-between;
+    display:flex; 
+}
+.div-form{
+    display: flex;
+    justify-content: center;
+}
+.div-centrado{
+    justify-content: space-between; 
+    align-items: center;
+}
+.button-c{
+    display: flex;
+    justify-content: center;
+}
+.lang-c{
+    display: flex;
+    justify-content: center;
+}
+
+/*hasta aqui esta el logo, buscador, botones, opciones de idioma*/
+
+/*footer*/
+footer{
+    background: #f2f2f2;
+    align-items: flex-end;
+}
+.pais{
+    display: flex;
+    padding: 15px 30px;
+    width: 1430px;
+    height: 48px;
+    font: 15px arial, sans-serif;
+    color:rgba(0,0,0,.54);
+    align-items: flex-start;
+   border-bottom:1px solid #dadce0;
+}
+
+.bottom-line{
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+}
+
+
 
