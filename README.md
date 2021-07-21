@@ -12,3 +12,4 @@ I though previously how i was going to give shape to the elements on the screen 
 i'ts always important to think of the process before start coding
 
 i'm having a little trouble with the structure so it will stuck in place but that ain't happening at the moment   
+

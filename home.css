@@ -7,7 +7,7 @@ body{
 .contenedor-G{
     display:row;
     flex: 1;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 /* navegador desde aqui */
@@ -56,8 +56,8 @@ body{
  }  
 
 .Logo-google{
-    width:272px;
-    height:92px;
+    width:302px;
+    height:112px;
     align-items:flex-end;
     margin-top: 7em;
 }
@@ -80,20 +80,23 @@ section{
     width: 20px;
     height: 20px;
     align-items: center;
+    padding: 15px 10px;
 }
 .microphone{
-    width:22px ;
-  height: auto;
+    width: 18.77px ;
+  height: 32px;
+  padding: 10px 15px;
 }
 form{
     margin-top:50px ;
     width: 582px;
-    height: 44px;
+    height: 48px;
     border-style: solid;
-    border-width: 1px;
+    border: 1px solid #dadce0;
     border-radius: 5% / 40%; 
     justify-content: space-between;
     display:flex; 
+    background: #fff;
 }
 .div-form{
     display: flex;
@@ -101,8 +104,10 @@ form{
 }
 .div-centrado{
     width: auto;
+    height: 390px;
     justify-content: space-between; 
     align-items: center;
+
 }
 .button-c{
     display: flex;
@@ -139,7 +144,7 @@ button{
 .footer{
     background: #f2f2f2;
     
-    align-items: flex-end;
+    align-self: flex-end;
 }
 .pais{
     display: flex;
@@ -158,5 +163,12 @@ button{
     padding:10px ;
 }
 
+.enl-bottom1{
+    text-decoration: none;
+    font: 15px arial, sans-serif;
+    color:rgba(0,0,0,.54);
+    padding: 10px;
+    
+}
 
 
