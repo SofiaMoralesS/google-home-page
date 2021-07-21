@@ -3,9 +3,15 @@ body{
     font-family: arial,sans-serif;
     color:#222;
 }
+ 
+.contenedor-G{
+    display:row;
+    flex: 1;
+    justify-content: space-between;
+}
 
 /* navegador desde aqui */
-nav {
+.nav {
     display: flex;
     flex-direction: row-reverse;
     padding: 6px;
@@ -41,6 +47,8 @@ nav {
 /*desde aqui esta el logo, buscador, botones, opciones de idioma*/
 
  .main-l{
+     width:auto;
+     height: 40%;
      align-items: center;
      display:row;
      justify-content: center;
@@ -50,19 +58,21 @@ nav {
 .Logo-google{
     width:272px;
     height:92px;
+    align-items:flex-end;
+    margin-top: 7em;
 }
 .div-logo-google {
-    width: 1430px;
+    width: auto;
     height: 196px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    display:flex;
+    justify-content:space-around;
 
 
 }
 section{
-    width: 1390px;
+    width: auto;
     height: 386px;
+    
 
 }
 
@@ -73,9 +83,10 @@ section{
 }
 .microphone{
     width:22px ;
-    height: 20px;
+  height: auto;
 }
 form{
+    margin-top:50px ;
     width: 582px;
     height: 44px;
     border-style: solid;
@@ -89,23 +100,45 @@ form{
     justify-content: center;
 }
 .div-centrado{
+    width: auto;
     justify-content: space-between; 
     align-items: center;
 }
 .button-c{
     display: flex;
     justify-content: center;
+    padding: 20px 30px;
+    
+}
+button{
+    background: #eef0f1;
+    border: 1px solid #eef0f1;
+    border-radius:4px;
+    color:#3c4043;
+    font-size:14px;
+    margin: 11px 4px;
+    text-align: center;
+    padding: 10px 16px;
+    
+
 }
 .lang-c{
     display: flex;
     justify-content: center;
+    margin: 10px;
+    
+}
+
+.a-enl2{
+    padding: 0px 4px;
 }
 
 /*hasta aqui esta el logo, buscador, botones, opciones de idioma*/
 
 /*footer*/
-footer{
+.footer{
     background: #f2f2f2;
+    
     align-items: flex-end;
 }
 .pais{
