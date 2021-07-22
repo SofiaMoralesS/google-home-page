@@ -2,12 +2,15 @@ body{
     font-size: 14px;
     font-family: arial,sans-serif;
     color:#222;
+    margin: 0;
+    padding: 0;
 }
  
 .contenedor-G{
-    display:row;
-    flex: 1;
+    display:flex;
+    flex-direction: column;
     justify-content:space-between;
+    height: 100vh;
 }
 
 /* navegador desde aqui */
@@ -16,39 +19,65 @@ body{
     flex-direction: row-reverse;
     padding: 6px;
     align-items: center;
+    margin-right: 10px;
 }
 
 .img-prof {
 
-    width: 32px;
-    height: 32px;
-    padding:4px;
+    width: 36px;
+    height: 36px;
+    padding:0px;
     border-radius: 50%;
-    
+    margin: 4px;
 }
+.img-prof:hover{
+  width: 36px;
+  height: 36px;
+  border: 5px solid #eef0f1;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 4px;
+  
+}
+
 .menu-log{
     padding: 10px;
+    border-radius:50%;
+    margin: 4px;
+}
+.menu-log:hover{
+    border: 10px solid #eef0f1;
+    border-radius: 50%;
+    padding: 0px;
+
 }
 .enl-image{
-    padding: 10px;
-   
+    padding: 10px;  
 }
+
 
 .a-enl{
     text-decoration: none;
     color: #222;
 }
+
+.a-enl:hover{
+    text-decoration-line:underline ;
+}
 .enl-gmail{
     padding:10px;
     
+}
+
+.enl-gmail:hover{
+    text-decoration-line:underline ;
 }
 /* navegador hasta aqui */
 
 /*desde aqui esta el logo, buscador, botones, opciones de idioma*/
 
  .main-l{
-     width:auto;
-     height: 40%;
+    
      align-items: center;
      display:row;
      justify-content: center;
@@ -72,7 +101,6 @@ body{
 section{
     width: auto;
     height: 386px;
-    
 
 }
 
@@ -98,6 +126,11 @@ form{
     display:flex; 
     background: #fff;
 }
+.form1:hover{
+    box-shadow:0px 0px 10px 8px #eef0f1;
+    
+    
+}
 .div-form{
     display: flex;
     justify-content: center;
@@ -120,12 +153,19 @@ button{
     border: 1px solid #eef0f1;
     border-radius:4px;
     color:#3c4043;
-    font-size:14px;
+    font-size:16px;
     margin: 11px 4px;
     text-align: center;
-    padding: 10px 16px;
+    padding: 15px 21px;
     
 
+}
+.loki:hover{
+   
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124; 
 }
 .lang-c{
     display: flex;
@@ -136,6 +176,11 @@ button{
 
 .a-enl2{
     padding: 0px 4px;
+    text-decoration: none;
+}
+
+.a-enl2:hover{
+    text-decoration-line:underline ;
 }
 
 /*hasta aqui esta el logo, buscador, botones, opciones de idioma*/
@@ -144,16 +189,15 @@ button{
 .footer{
     background: #f2f2f2;
     
-    align-self: flex-end;
 }
 .pais{
     display: flex;
     padding: 15px 30px;
-    width: 1430px;
+    
     height: 48px;
     font: 15px arial, sans-serif;
     color:rgba(0,0,0,.54);
-    align-items: flex-start;
+    align-items:center;
    border-bottom:1px solid #dadce0;
 }
 
@@ -169,6 +213,9 @@ button{
     color:rgba(0,0,0,.54);
     padding: 10px;
     
+}
+.enl-bottom1:hover{
+    text-decoration-line:underline ;
 }
 
 

@@ -13,3 +13,6 @@ i'ts always important to think of the process before start coding
 
 i'm having a little trouble with the structure so it will stuck in place but that ain't happening at the moment   
 
+today y learn a lot about **box-shadow** its the coolest property so far even though I practice a little with it before this is the first time I used it properly and its realy interesting how it works.
+
+self-note: if you're using flex you can't give containers specific size to width or height
