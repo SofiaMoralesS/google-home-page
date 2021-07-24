@@ -110,6 +110,13 @@ section{
     align-items: center;
     padding: 15px 10px;
 }
+
+#busqueda{
+    width: 100%;
+    outline: none;
+    border: 0px none #fff;
+    font-size: 16px;
+}
 .microphone{
     width: 18.77px ;
   height: 32px;
